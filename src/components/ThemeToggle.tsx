@@ -76,7 +76,7 @@ export default function ThemeToggle() {
             onClick={toggleMode}
             aria-label={label}
             title={label}
-            className="rounded-full border border-(--chip-line) bg-(--chip-bg) px-3 py-1.5 text-sm font-semibold text-(--sea-ink) transition hover:-translate-y-0.5"
+            className="rounded-md border border-(--chip-line) bg-(--chip-bg) px-3 py-1.5 text-sm font-semibold text-(--sea-ink) transition hover:-translate-y-0.5"
         >
             {mode === 'auto' && <Monitor size={20} />}
             {mode === 'dark' && <Moon size={20} />}
