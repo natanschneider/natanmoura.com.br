@@ -42,9 +42,13 @@ function RootDocument({ children }: { children: React.ReactNode }) {
                 <HeadContent />
             </head>
             <body className="font-sans antialiased wrap-anywhere">
-                <Header />
-                {children}
-                <Footer />
+                <div className='flex min-h-svh flex-col'>
+                    <Header />
+                    <main className='flex-1'>
+                        {children}
+                    </main>
+                    <Footer />
+                </div>
                 { process.env.NODE_ENV === 'development' &&
                     <TanStackDevtools
                         config={{
