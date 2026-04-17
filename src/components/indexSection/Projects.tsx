@@ -7,7 +7,7 @@ const projects: Project[] = [
 		image: '/assets/pomodorish.png',
 		href: 'https://pomodorish.natanmoura.com.br',
 		repoUrl: 'https://github.com/natanschneider/pomodorish/',
-		stack: ['JavaScript', 'CSS'],
+		stack: ['TailwindCSS', 'ViteJS', 'ReactJS'],
 	},
 	{
 		title: 'Campeonato Brasileiro',
