@@ -19,7 +19,7 @@ export const Route = createRootRoute({
                 content: 'width=device-width, initial-scale=1',
             },
             {
-                title: 'TanStack Start Starter',
+                title: 'Natan Moura',
             },
         ],
         links: [
@@ -34,12 +34,13 @@ export const Route = createRootRoute({
 
 function RootDocument({ children }: { children: React.ReactNode }) {
     return (
-        <html lang="en" suppressHydrationWarning>
+        <html lang="pt-BR" suppressHydrationWarning>
             <head>
                 <script
                     dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }}
                 />
                 <HeadContent />
+                <link rel="icon" href="/favicon.png" type="image/png" />
             </head>
             <body className="font-sans antialiased wrap-anywhere">
                 <div className='flex min-h-svh flex-col'>
