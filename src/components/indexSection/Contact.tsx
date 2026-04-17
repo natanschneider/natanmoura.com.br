@@ -3,26 +3,26 @@ import { Mail, Linkedin, Github, MessageCircle } from 'lucide-react'
 const contacts = [
     {
         name: 'E-mail',
-        username: 'natan@email.com',
-        href: 'mailto:natan@email.com',
+        username: 'natanschneider@protonmail.com',
+        href: 'mailto:natanschneider@protonmail.com',
         icon: Mail,
     },
     {
         name: 'LinkedIn',
-        username: 'in/natanmoura',
-        href: 'https://linkedin.com/in/natanmoura',
+        username: 'in/natanschneider',
+        href: 'https://linkedin.com/in/natanschneider',
         icon: Linkedin,
     },
     {
         name: 'GitHub',
-        username: '@natanmoura',
-        href: 'https://github.com/natanmoura',
+        username: '@natanschneider',
+        href: 'https://github.com/natanschneider',
         icon: Github,
     },
     {
         name: 'WhatsApp',
-        username: '+55 (11) 99999-9999',
-        href: 'https://wa.me/5511999999999',
+        username: '+55 (51) 995559012',
+        href: 'https://wa.me/5551995559012',
         icon: MessageCircle,
     },
 ]
