@@ -2,6 +2,14 @@ import { type Project, ProjectCard } from "../ProjectCard"
 
 const projects: Project[] = [
 	{
+		title: 'Meu Portfolio',
+		description: 'Portfólio pessoal com meus projetos e informações',
+		image: '/assets/portfolio.png',
+		href: 'https://www.natanmoura.com.br',
+		repoUrl: 'https://github.com/natanschneider/reactPortfolio/',
+		stack: ['TailwindCSS', 'ViteJS', 'ReactJS'],
+	},
+	{
 		title: 'Pomodorish',
 		description: 'Aplicação Pomodoro para gerenciar seu tempo de forma eficiente',
 		image: '/assets/pomodorish.png',
@@ -16,14 +24,6 @@ const projects: Project[] = [
 		href: 'https://tabelabrasileiroseriea.000webhostapp.com/',
 		repoUrl: 'https://github.com/natanschneider/TabelaBrasileirao/',
 		stack: ['PHP', 'CSS', 'MariaDB', 'API'],
-	},
-	{
-		title: 'Meu Portfolio',
-		description: 'Portfólio pessoal com meus projetos e informações',
-		image: '/assets/portfolio.png',
-		href: 'https://www.natanmoura.com.br',
-		repoUrl: 'https://github.com/natanschneider/reactPortfolio/',
-		stack: ['TailwindCSS', 'ViteJS', 'ReactJS'],
 	},
 ];
 
