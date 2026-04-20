@@ -13,6 +13,14 @@ pipeline {
             }
         }
 
+        stage('Stop Existing Containers') {
+            steps {
+                script {
+                    sh 'docker compose down || true'
+                }
+            }
+        }
+
         stage('Build and Start') {
             steps {
                 script {
