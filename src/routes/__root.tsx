@@ -42,6 +42,13 @@ function RootDocument({ children }: { children: React.ReactNode }) {
                 />
                 <HeadContent />
                 <link rel="icon" href="/favicon.png" type="image/png" />
+                <style>{`
+                    body {
+                        opacity: 0;
+                        animation: fadeIn 0.3s forwards;
+                    }
+                    @keyframes fadeIn { to { opacity: 1; } }
+                `}</style>
             </head>
             <body className="font-sans antialiased wrap-anywhere">
                 <div className='flex min-h-svh flex-col'>
