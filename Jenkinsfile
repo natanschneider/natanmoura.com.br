@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        COMPOSE_PROJECT_NAME = 'natanmoura.com.br'
+        COMPOSE_PROJECT_NAME = 'natanmoura'
         COMPOSE_FILE = 'docker-compose.yaml'
     }
 
