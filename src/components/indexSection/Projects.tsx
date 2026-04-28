@@ -2,6 +2,14 @@ import { type Project, ProjectCard } from "../ProjectCard"
 
 const projects: Project[] = [
 	{
+		title: 'Docos',
+		description: 'Documente sua aplicação e banco de dados, descubra com facilidade aonde uma coluna é usada.',
+		image: '/assets/docos.png',
+		href: 'https://docos.natanmoura.com.br',
+		repoUrl: 'https://github.com/natanschneider/docos/',
+		stack: ['Laravel', 'ReactJS', 'TailwindCSS', 'PostgreSQL', 'MinIO'],
+	},
+	{
 		title: 'Meu Portfolio',
 		description: 'Portfólio pessoal com meus projetos e informações',
 		image: '/assets/portfolio.png',
