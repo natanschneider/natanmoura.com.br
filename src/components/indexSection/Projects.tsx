@@ -2,6 +2,14 @@ import { type Project, ProjectCard } from "../ProjectCard"
 
 const projects: Project[] = [
 	{
+		title: 'Campeonato Brasileiro',
+		description: 'Tabela e informações do Campeonato Brasileiro Série A',
+		image: '/assets/TabelaBrasileiro.png',
+		href: 'https://campeonato.natanmoura.com.br',
+		repoUrl: 'https://github.com/natanschneider/campeonato/',
+		stack: ['TailwindCSS', 'ViteJS', 'ReactJS'],
+	},
+	{
 		title: 'Docos',
 		description: 'Documente sua aplicação e banco de dados, descubra com facilidade aonde uma coluna é usada.',
 		image: '/assets/docos.png',
@@ -24,14 +32,6 @@ const projects: Project[] = [
 		href: 'https://pomodorish.natanmoura.com.br',
 		repoUrl: 'https://github.com/natanschneider/pomodorish/',
 		stack: ['TailwindCSS', 'ViteJS', 'ReactJS'],
-	},
-	{
-		title: 'Campeonato Brasileiro',
-		description: 'Tabela e informações do Campeonato Brasileiro Série A',
-		image: '/assets/TabelaBrasileiro.png',
-		href: 'https://tabelabrasileiroseriea.000webhostapp.com/',
-		repoUrl: 'https://github.com/natanschneider/TabelaBrasileirao/',
-		stack: ['PHP', 'CSS', 'MariaDB', 'API'],
 	},
 ];
 
