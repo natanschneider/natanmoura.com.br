@@ -51,26 +51,22 @@ function RootDocument({ children }: { children: React.ReactNode }) {
                 `}</style>
             </head>
             <body className="font-sans antialiased wrap-anywhere">
-                <div className='flex min-h-svh flex-col'>
+                <div className="flex min-h-svh flex-col">
                     <Header />
-                    <main className='flex-1'>
-                        {children}
-                    </main>
+                    <main className="flex-1">{children}</main>
                     <Footer />
                 </div>
-                { process.env.NODE_ENV === 'development' &&
-                    <TanStackDevtools
-                        config={{
-                            position: 'bottom-right',
-                        }}
-                        plugins={[
-                            {
-                                name: 'Tanstack Router',
-                                render: <TanStackRouterDevtoolsPanel />,
-                            },
-                        ]}
-                    />
-                }
+                <TanStackDevtools
+                    config={{
+                        position: 'bottom-right',
+                    }}
+                    plugins={[
+                        {
+                            name: 'Tanstack Router',
+                            render: <TanStackRouterDevtoolsPanel />,
+                        },
+                    ]}
+                />
                 <Scripts />
             </body>
         </html>

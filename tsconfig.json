@@ -12,6 +12,7 @@
         "jsx": "react-jsx",
         "module": "ESNext",
         "paths": {
+            "content-collections": ["./.content-collections/generated"],
             "#/*": ["./src/*"],
             "@/*": ["./src/*"]
         },
