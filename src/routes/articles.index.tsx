@@ -27,7 +27,6 @@ function ArticlesIndex() {
                                 <CardDescription>{ post.authors.join(', ') }</CardDescription>
                             </CardHeader>
                             <CardContent>
-                                <p>{ post.excerpt }</p>
                                 <span>{ post.published }</span>
                             </CardContent>
                         </Link>
