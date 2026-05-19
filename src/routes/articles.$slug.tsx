@@ -17,14 +17,12 @@ function ArticlePost() {
     const post = Route.useLoaderData()
 
     return (
-        <article>
-            <header>
-                <h1>{post.title}</h1>
-                <p>
-                    By {post.authors.join(', ')} on {post.published}
-                </p>
-            </header>
-            <Markdown content={post.content} className="prose" />
-        </article>
+        <section className="mx-auto max-w-5xl px-6 py-24">
+            <h1 className="font-serif text-4xl font-semibold tracking-tight text-foreground text-balance">{post.title}</h1>
+            <p className="font-serif text-md tracking-tight text-foreground text-balance">By {post.authors.join(', ')} on {post.published}</p>
+            <article className='mt-4 max-w-xl'>
+                <Markdown content={post.content} className="prose text-base leading-relaxed tracking-tight text-balance text-slate-800 dark:text-slate-50" />
+            </article>
+        </section>
     )
 }
