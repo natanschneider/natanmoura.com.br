@@ -4,7 +4,10 @@ const timelineItems = [
         startDate: 'Abril/2023',
         endDate: 'o momento',
         description:
-            'Sou responsável pelo desenvolvimento e manutenção de sistemas Web internos, utilizando PHP, JavaScript, TailwindCSS e ORACLE SQL.',
+            `Sou responsável pelo desenvolvimento e manutenção de sistemas Web internos, utilizando PHP, JavaScript, TailwindCSS e ORACLE SQL.
+            Também sou responsável pela segurança, boas práticas e desempenho de aplicações.
+            Desenvolvi integrações com sistemas terceiros, pelo uso de API's e webhooks.
+            `,
     },
     {
         title: 'Instrutor de Desenvolvimento Web e Informatica Fundamental @ Senac Santa Cruz do Sul',
