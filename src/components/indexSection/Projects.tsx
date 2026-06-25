@@ -2,6 +2,14 @@ import { type Project, ProjectCard } from "../ProjectCard"
 
 const projects: Project[] = [
 	{
+		'title': 'Weather',
+		'description': 'Veja a previsão do tempo em qualquer lugar do mundo',
+		'image': '/assets/weather.png',
+		'href': 'https://weather.natanmoura.com.br',
+		'repoUrl': 'https://github.com/natanschneider/weather/',
+		'stack': ['TailwindCSS', 'ViteJS', 'ReactJS'],
+	},
+	{
 		title: 'Campeonato Brasileiro',
 		description: 'Tabela e informações do Campeonato Brasileiro Série A',
 		image: '/assets/TabelaBrasileiro.png',
