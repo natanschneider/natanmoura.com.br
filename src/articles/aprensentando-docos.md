@@ -9,7 +9,7 @@ authors:
 
 A documentação de aplicações é um desafio que toda equipe de desenvolvimento enfrenta. Manter telas, endpoints, banco de dados e suas relações sincronizados e acessíveis é uma tarefa complexa que consome tempo valioso. **Apresentamos Docos**, uma plataforma integrada que transforma a forma como você documenta suas aplicações, centralizando todas as informações em um único lugar e criando conexões inteligentes entre seus componentes.
 
-![Imagem Docos](/public/assets/articles/docos-index.png)
+![Imagem Docos](/assets/articles/docos-index.png)
 
 ---
 
@@ -22,7 +22,7 @@ Historicamente, a documentação de projetos fica espalhada em diversos lugares:
 - **Busca ineficiente**: "Onde essa coluna é usada?" vira uma investigação demorada
 - **Manutenção onerosa**: Atualizar documentação em vários lugares aumenta o risco de inconsistências
 
-![Imagem Docos](/public/assets/articles/docos-database-img.png)
+![Imagem Docos](/assets/articles/docos-database-img.png)
 
 **Docos resolve esses problemas** oferecendo uma visão unificada e relacional de toda sua aplicação.
 
