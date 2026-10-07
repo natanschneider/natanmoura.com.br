@@ -17,5 +17,6 @@
         "node_modules": true,
         ".tanstack": true
     },
-    "explorerExclude.backup": {}
+    "explorerExclude.backup": {},
+    "explorerExcludeManager.backup": {}
 }
