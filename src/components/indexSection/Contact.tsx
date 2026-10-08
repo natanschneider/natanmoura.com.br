@@ -19,12 +19,6 @@ const contacts = [
         href: 'https://github.com/natanschneider',
         icon: Github,
     },
-    {
-        name: 'WhatsApp',
-        username: '+55 (51) 995559012',
-        href: 'https://wa.me/5551995559012',
-        icon: MessageCircle,
-    },
 ]
 
 export default function Contact() {
