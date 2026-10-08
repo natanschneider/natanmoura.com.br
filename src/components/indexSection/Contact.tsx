@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, MessageCircle } from 'lucide-react'
+import { Mail, Linkedin, Github } from 'lucide-react'
 
 const contacts = [
     {
