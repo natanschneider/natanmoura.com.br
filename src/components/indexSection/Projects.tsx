@@ -1,4 +1,5 @@
-import { type Project, ProjectCard } from "../ProjectCard"
+import {  ProjectCard } from "../ProjectCard"
+import type {Project} from "../ProjectCard";
 
 const projects: Project[] = [
 	{
