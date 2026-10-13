@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github } from 'lucide-react'
+import { Mail, Linkedin, Github, MessageCircle } from 'lucide-react'
 
 const contacts = [
     {
@@ -18,6 +18,12 @@ const contacts = [
         username: '@natanschneider',
         href: 'https://github.com/natanschneider',
         icon: Github,
+    },
+    {
+        name: 'WhatsApp',
+        username: '+55 (51) 99555-9012',
+        href: 'https://wa.me/555195559012',
+        icon: MessageCircle,
     },
 ]
 
