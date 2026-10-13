@@ -24,9 +24,7 @@ export default function Welcome() {
             <h1 className="font-serif text-4xl font-semibold tracking-tight text-foreground text-balance">
                 Olá, eu sou o Natãn Moura.
             </h1>
-            <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground">
-                Sou uma pessoa com muita sede de conhecimento. Ótimo em aprender sozinho, e em trabalho em equipe. <br />
-				Comecei meu aprendizado em 2020, e foi aonde me encontrei como pessoa e como profissional.
+            <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground">Sou uma pessoa com grande sede de conhecimento, com facilidade para o aprendizado autodidata e boa atuação em trabalho em equipe.<br /> Iniciei minha trajetória de aprendizado em programação em 2020, período em que me encontrei tanto pessoal quanto profissionalmente.
             </p>
 
             <div className='mt-8 flex items-center gap-3'>
