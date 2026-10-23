@@ -16,13 +16,6 @@ const timelineItems = [
         description:
             'Ensinei jovens de 14 a 19 anos sobre Desenvolvimento Web utilizando PHP, Javascript, Node.JS, Express e bancos de dado como MariaDB e MongoDB. Também ensinei os básicos sobre o MS Windows e o pacote Office',
     },
-    {
-        title: 'Curso Técnico em Informatica @ Senac Santa Cruz do Sul',
-        startDate: 'Março/2020',
-        endDate: 'Outubro/2022',
-        description:
-            'Curso aonde aprendi conceitos e pratica sobre Hardware e Software, escrevi minhas primeiras linhas de código e me apaixonei pela area de Desenvolvimento!',
-    },
 ]
 
 export default function Timeline() {
