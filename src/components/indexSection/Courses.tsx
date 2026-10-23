@@ -1,5 +1,41 @@
 const coursesItems = [
     {
+        title: 'Web Dev Security @ Desec Security',
+        date: 'Dezembro/2025',
+        hours: 18,
+        description: ''
+    },
+    {
+        title: 'Java Polimorfismo: entenda herança e interfaces @ Alura',
+        date: 'Abril/2023',
+        hours: 16,
+        description: ''
+    },
+    {
+        title: 'HTTP: Entendendo a web por baixo dos panos @ Alura',
+        date: 'Novembro/2022',
+        hours: 14,
+        description: ''
+    },
+    {
+        title: 'Node.js: API Rest com Express e MongoDB @ Alura',
+        date: 'Novembro/2022',
+        hours: 12,
+        description: ''
+    },
+    {
+        title: 'JavaScript: programação orientada a objetos @ Alura',
+        date: 'Novembro/2022',
+        hours: 10,
+        description: ''
+    },
+    {
+        title: 'Node.js: criando sua primeira biblioteca @ Alura',
+        date: 'Outubro/2022',
+        hours: 12,
+        description: ''
+    },
+    {
         title: 'Curso Técnico em Informatica @ Senac Santa Cruz do Sul',
         startDate: 'Março/2020',
         endDate: 'Outubro/2022',
