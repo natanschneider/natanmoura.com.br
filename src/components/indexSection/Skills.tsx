@@ -19,7 +19,7 @@ const skillGroups = [
 export default function Skills() {
     return (
         <section id="skills" className="mx-auto max-w-5xl px-6 py-16" aria-labelledby="skills-title">
-            <h2 id="skills-title" className="mb-8 font-serif text-2xl font-semibold tracking-tight text-foreground">Skills</h2>
+            <h2 id="skills-title" className="mb-8 font-serif text-2xl font-semibold tracking-tight text-foreground">Habilidades</h2>
             <div className="grid gap-px overflow-hidden rounded-2xl border md:grid-cols-3">
                 {skillGroups.map((group, index) => (
                     <article key={group.title} className="p-7 sm:p-8">

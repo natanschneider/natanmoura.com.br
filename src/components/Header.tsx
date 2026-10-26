@@ -25,7 +25,7 @@ export default function Header() {
                         className="nav-link"
                         activeProps={{ className: 'nav-link is-active' }}
                     >
-                        Home
+                        Inicio
                     </Link>
 
                     <Link
@@ -33,7 +33,7 @@ export default function Header() {
                         className="nav-link"
                         activeProps={{ className: 'nav-link is-active' }}
                     >
-                        Articles
+                        Artigos
                     </Link>
                 </div>
             </nav>

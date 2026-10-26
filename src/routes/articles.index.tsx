@@ -14,7 +14,7 @@ function ArticlesIndex() {
     return (
         <section className="mx-auto max-w-5xl px-6 py-24">
             <h1 className="font-serif text-4xl font-semibold tracking-tight text-foreground text-balance py-8">
-                Articles
+                Artigos
             </h1>
             <div className="divide-y divide-neutral-300">
                 {sortedPosts.map((article, index) => (

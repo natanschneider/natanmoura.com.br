@@ -19,7 +19,7 @@ function ArticlePost() {
     return (
         <section className="mx-auto max-w-5xl px-6 py-24">
             <h1 className="font-serif text-4xl font-semibold tracking-tight text-foreground text-balance">{post.title}</h1>
-            <p className="font-serif text-md tracking-tight text-foreground text-balance">By {post.authors.join(', ')} on {post.published}</p>
+            <p className="font-serif text-md tracking-tight text-foreground text-balance">Por {post.authors.join(', ')} em {post.published}</p>
             <article className='mt-4 max-w-xl'>
                 <Markdown content={post.content} className="prose text-base leading-relaxed tracking-tight text-balance" />
             </article>
