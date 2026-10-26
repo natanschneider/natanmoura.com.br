@@ -3,37 +3,37 @@ const coursesItems = [
         title: 'Web Dev Security @ Desec Security',
         date: 'Dezembro/2025',
         hours: 18,
-        description: ''
+        description: 'Adquiri conhecimentos em desenvolvimento seguro, incluindo a proteção de aplicações contra ataques como SQL Injection, XSS e CSRF, além da aplicação de práticas de autenticação e autorização.'
     },
     {
         title: 'Java Polimorfismo: entenda herança e interfaces @ Alura',
         date: 'Abril/2023',
         hours: 16,
-        description: ''
+        description: 'Aprofundei meus conhecimentos em programação orientada a objetos com Java. Aprendi a aplicar herança, interfaces e polimorfismo para criar soluções mais flexíveis, reutilizáveis e organizadas.'
     },
     {
         title: 'HTTP: Entendendo a web por baixo dos panos @ Alura',
         date: 'Novembro/2022',
         hours: 14,
-        description: ''
+        description: 'Compreendi os fundamentos da comunicação entre clientes e servidores na web. Estudei o funcionamento de requisições e respostas HTTP, métodos, cabeçalhos e códigos de status, ampliando minha capacidade de entender e desenvolver aplicações web.'
     },
     {
         title: 'Node.js: API Rest com Express e MongoDB @ Alura',
         date: 'Novembro/2022',
         hours: 12,
-        description: ''
+        description: 'Aprendi a desenvolver APIs REST utilizando Node.js e Express, integrando-as a um banco de dados MongoDB. Também pratiquei a criação de rotas e operações para cadastrar, consultar, atualizar e remover dados, além de organizar a estrutura da aplicação.'
     },
     {
         title: 'JavaScript: programação orientada a objetos @ Alura',
         date: 'Novembro/2022',
         hours: 10,
-        description: ''
+        description: 'Aprofundei meus conhecimentos nos princípios da programação orientada a objetos com JavaScript. Aprendi a criar e utilizar classes e objetos, aplicar conceitos como encapsulamento e herança e organizar o código de forma mais reutilizável e sustentável.'
     },
     {
         title: 'Node.js: criando sua primeira biblioteca @ Alura',
         date: 'Outubro/2022',
         hours: 12,
-        description: ''
+        description: 'Desenvolvi conhecimentos fundamentais para criar e organizar uma biblioteca em Node.js. Aprendi a estruturar um projeto, trabalhar com módulos e pacotes, utilizar dependências e preparar a biblioteca para ser compartilhada e reutilizada em outras aplicações.'
     },
     {
         title: 'Curso Técnico em Informatica @ Senac Santa Cruz do Sul',
@@ -42,7 +42,7 @@ const coursesItems = [
         date: 'Outubro/2022',
         hours: 315,
         description:
-            'Curso aonde aprendi conceitos e pratica sobre Hardware e Software, escrevi minhas primeiras linhas de código e me apaixonei pela area de Desenvolvimento!',
+            'Curso em que adquiri conhecimentos sobre hardware e software, escrevi minhas primeiras linhas de código e descobri minha paixão pela área de desenvolvimento.',
     },
 ]
 

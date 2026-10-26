@@ -4,17 +4,14 @@ const timelineItems = [
         startDate: 'Abril/2023',
         endDate: 'o momento',
         description:
-            `Sou responsável pelo desenvolvimento e manutenção de sistemas Web internos e API's, utilizando PHP, JavaScript, TailwindCSS, ORACLE SQL e Node.JS.
-            Também sou responsável pela segurança, boas práticas e desempenho de aplicações.
-            Desenvolvi integrações com sistemas terceiros, pelo uso de API's e webhooks.
-            `,
+            `Desenvolvo e mantenho sistemas web internos e APIs utilizando PHP, JavaScript, Tailwind CSS, Oracle SQL e Node.js. Também atuo na segurança, no desempenho e na aplicação de boas práticas de desenvolvimento. Além disso, desenvolvo integrações com sistemas de terceiros por meio de APIs e webhooks.`,
     },
     {
         title: 'Instrutor de Desenvolvimento Web e Informatica Fundamental @ Senac Santa Cruz do Sul',
         startDate: 'Janeiro/2023',
         endDate: 'Março/2023',
         description:
-            'Ensinei jovens de 14 a 19 anos sobre Desenvolvimento Web utilizando PHP, Javascript, Node.JS, Express e bancos de dado como MariaDB e MongoDB. Também ensinei os básicos sobre o MS Windows e o pacote Office',
+            'Ministrei aulas de desenvolvimento web para jovens de 14 a 19 anos, abordando PHP, JavaScript, Node.js, Express e bancos de dados como MariaDB e MongoDB. Também ensinei conceitos básicos de Windows e do pacote Microsoft Office.',
     },
 ]
 
