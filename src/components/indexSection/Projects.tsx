@@ -2,13 +2,21 @@ import {  ProjectCard } from "../ProjectCard"
 import type {Project} from "../ProjectCard";
 
 const projects: Project[] = [
+    {
+        title: 'Toskos',
+        description: 'Conecta tarefas, subtarefas e documentação para seu time trabalhar com clareza — do primeiro rascunho à entrega.',
+        image: '/assets/print_toskos.png',
+        href: 'https://toskos.natanmoura.com.br',
+        repoUrl: 'https://github.com/natanschneider/toskos/',
+        stack: ['Laravel', 'ReactJS', 'TailwindCSS', 'PostgreSQL', 'MinIO'],
+    },
 	{
-		'title': 'Weather',
-		'description': 'Veja a previsão do tempo em qualquer lugar do mundo',
-		'image': '/assets/weather.png',
-		'href': 'https://weather.natanmoura.com.br',
-		'repoUrl': 'https://github.com/natanschneider/weather/',
-		'stack': ['TailwindCSS', 'ViteJS', 'ReactJS'],
+		title: 'Weather',
+		description: 'Veja a previsão do tempo em qualquer lugar do mundo',
+		image: '/assets/weather.png',
+		href: 'https://weather.natanmoura.com.br',
+		repoUrl: 'https://github.com/natanschneider/weather/',
+		stack: ['TailwindCSS', 'ViteJS', 'ReactJS'],
 	},
 	{
 		title: 'Campeonato Brasileiro',
