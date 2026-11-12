@@ -4,7 +4,7 @@ import type {Project} from "../ProjectCard";
 const projects: Project[] = [
     {
         title: 'Toskos',
-        description: 'Conecta tarefas, subtarefas e documentação para seu time trabalhar com clareza — do primeiro rascunho à entrega.',
+        description: 'Conecte tarefas, subtarefas e documentação em um só lugar. Dê ao seu time clareza para acompanhar cada etapa — do planejamento à entrega.',
         image: '/assets/print_toskos.png',
         href: 'https://toskos.natanmoura.com.br',
         repoUrl: 'https://github.com/natanschneider/toskos/',
@@ -12,7 +12,7 @@ const projects: Project[] = [
     },
     {
 		title: 'Docos',
-		description: 'Documente sua aplicação e banco de dados, descubra com facilidade aonde uma coluna é usada.',
+		description: 'Documente sua aplicação e seu banco de dados. Encontre rapidamente onde cada coluna é utilizada.',
 		image: '/assets/docos.png',
 		href: 'https://docos.natanmoura.com.br',
 		repoUrl: 'https://github.com/natanschneider/docos/',
@@ -20,7 +20,7 @@ const projects: Project[] = [
 	},
 	{
 		title: 'Meu Portfolio',
-		description: 'Portfólio pessoal com meus projetos e informações',
+		description: 'Um espaço para apresentar meus projetos, compartilhar minha trajetória e reunir informações sobre meu trabalho.',
 		image: '/assets/portfolio.png',
 		href: 'https://www.natanmoura.com.br',
 		repoUrl: 'https://github.com/natanschneider/reactPortfolio/',
@@ -28,15 +28,15 @@ const projects: Project[] = [
 	},
 	{
 		title: 'Weather',
-		description: 'Veja a previsão do tempo em qualquer lugar do mundo',
+		description: 'Consulte a previsão do tempo em qualquer lugar do mundo, de forma rápida e simples.',
 		image: '/assets/weather.png',
 		href: 'https://weather.natanmoura.com.br',
 		repoUrl: 'https://github.com/natanschneider/weather/',
 		stack: ['TailwindCSS', 'ViteJS', 'ReactJS'],
 	},
 	{
-		title: 'Campeonato Brasileiro',
-		description: 'Tabela e informações do Campeonato Brasileiro Série A',
+		title: 'Campeonato',
+		description: 'Acompanhe as tabelas e consulte informações dos campeonatos de futebol em um só lugar.',
 		image: '/assets/TabelaBrasileiro.png',
 		href: 'https://campeonato.natanmoura.com.br',
 		repoUrl: 'https://github.com/natanschneider/campeonato/',
@@ -44,7 +44,7 @@ const projects: Project[] = [
 	},
 	{
 		title: 'Pomodorish',
-		description: 'Aplicação Pomodoro para gerenciar seu tempo de forma eficiente',
+		description: 'Gerencie seu tempo com ciclos Pomodoro que ajudam a manter o foco e organizar pausas ao longo do dia.',
 		image: '/assets/pomodorish.png',
 		href: 'https://pomodorish.natanmoura.com.br',
 		repoUrl: 'https://github.com/natanschneider/pomodorish/',
